@@ -55,7 +55,7 @@ body {
 .counter-container .counter .count-text {
   font-size: 1.2rem;
   margin: 1rem 0;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
@@ -107,6 +107,7 @@ body {
   font-size: 1rem;
   color: black;
   cursor: pointer;
+  border: none;
 }
 
 .email button:hover {
@@ -157,10 +158,21 @@ body {
     padding: 10px;
   }
 
+  .counter-container .counter .count {
+    font-size: 40px;
+  }
+
+  .counter-container .counter .count-text {
+    font-size: 1rem;
+  }
+
   .counter-container {
+    margin-top: 2rem;
+  }
+  /* .counter-container {
     grid-template-columns: 1fr;
     width: max-content;
-  }
+  } */
 
   .email {
     width: 100%;
@@ -179,5 +191,9 @@ body {
   .our-services .second ul li {
     font-size: 0.9rem;
     font-weight: 300;
+  }
+
+  .notify {
+    font-size: 2rem;
   }
 }
