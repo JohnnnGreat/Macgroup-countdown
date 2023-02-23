@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="counter">
+      <div class="container">
+        <div class="logo">
+          <img src="./Macgroup-logo 1.png" alt="Macgroup Logo" />
+        </div>
+        <h1 class="notify">We are launching soon!!</h1>
+
+        <div class="counter-container">
+          <div class="counter">
+            <h1 id="days" class="count"></h1>
+            <h1 class="count-text">Days</h1>
+          </div>
+          <div class="counter">
+            <h1 id="hours" class="count"></h1>
+            <h1 class="count-text">Hours</h1>
+          </div>
+          <div class="counter">
+            <h1 id="minutes" class="count"></h1>
+            <h1 class="count-text">Minutes</h1>
+          </div>
+          <div class="counter">
+            <h1 id="seconds" class="count"></h1>
+            <h1 class="count-text">Seconds</h1>
+          </div>
+        </div>
+        <div class="email-txt">
+          <h1>Be the first to know when we go live.</h1>
+        </div>
+        <h1 id="response"></h1>
+        <div class="email">
+          <input
+            autocomplete="off"
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <button onclick="subscribe()">Submit</button>
+        </div>
+        <div class="our-services">
+          <h1>Our Services</h1>
+          <div class="first">
+            <ul>
+              <li>Content Writing</li>
+              <li>App Development</li>
+              <li>E-Commerce</li>
+              <li>Digital Marketing</li>
+            </ul>
+          </div>
+          <div class="second">
+            <ul>
+              <li>Branding</li>
+              <li>App Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
