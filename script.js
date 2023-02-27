@@ -1,4 +1,4 @@
-const launchDate = new Date("Mar 1, 2023 00:00:00").getTime();
+const launchDate = new Date("Mar 1, 2023 09:00:00").getTime();
 console.log(launchDate);
 
 let timer = setInterval(CountTime, 1000);
